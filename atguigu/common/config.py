@@ -34,4 +34,3 @@ def get_settings() -> Settings:   #将实例对象返回 并存到缓存
 if __name__ == '__main__':
 
     settings = get_settings()
-    print(settings.api_port)
